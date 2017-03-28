@@ -37,7 +37,12 @@ pip install opencv-python
 TF_URL=https://storage.googleapis.com/tensorflow/mac/cpu/tensorflow-1.0.1-py3-none-any.whl
 pip install --ignore-installed --upgrade $TF_URL
 
+pip install ipykernel
 python -m ipykernel install --user --name ml --display-name "Python (ml)"
 
 #Start notebook
 jupyter notebook
+
+#Remember to set Kernel to "Python(ml) when you open a notebook"
+
+#I will try to update this tutorial with proper formatting soon! :)
