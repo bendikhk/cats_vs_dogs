@@ -1,6 +1,10 @@
+
+Setup and installation of environment for osx. Will add information for 
+linux soon. 
+More details on setting up anaconda can be found here:
+http://machinelearningmastery.com/setup-python-environment-machine-learning-deep-learning-anaconda/
+
 ### ANACONDA 4.3.1 ###
-
-
 ###Download and install conda
 ANACONDA_NAME=Anaconda3-4.3.1-MacOSX-x86_64.sh
 wget https://repo.continuum.io/archive/$ANACONDA_NAME
@@ -14,13 +18,15 @@ conda create --name ml python=3.6
 conda install conda-build
 
 #Activate "ml" environment before installing packages
+#Remember to look for the (ml) infront of computer$ in your terminal
+to verify that the environment is activated.
 source activate ml
 
 pip install jupyter
 pip install scikit-learn
 pip install matplotlib
 pip install tflearn
-#pip install pillow
+pip install pillow
 pip install scipy
 
 ### Install OPENCV 3.2.0 ###
