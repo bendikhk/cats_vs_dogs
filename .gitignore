@@ -1,0 +1,9 @@
+.idea
+.DS_Store
+tflearn_logs
+tmp
+pretrained
+.ipynb_checkpoints
+__pycache__
+config/local.json
+*.pyc
