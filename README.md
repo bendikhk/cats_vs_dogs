@@ -24,8 +24,15 @@ conda create --name ml python=3.6
 conda install conda-build
 ```
 
-### Activate "ml" environment before installing packages. Remember to look for `(ml) computer_name/folder$` in your terminal to verify that the environment is activated.
-```source activate ml```
+### Activate "ml" environment before installing packages.
+```
+source activate ml
+```
+
+### Your terminal should look like this:
+```
+(ml) computer_name/folder$
+```
 
 ### Install python packages
 ```
@@ -43,7 +50,7 @@ brew install git cmake pkg-config jpeg libpng libtiff openexr eigen tbb
 pip install opencv-python
 ```
 
-### TENSORFLOW 1.0.1 ###
+### Install Tensorflow 1.0.1 ###
 ```
 TF_URL=https://storage.googleapis.com/tensorflow/mac/cpu/tensorflow-1.0.1-py3-none-any.whl
 pip install --ignore-installed --upgrade $TF_URL
@@ -60,5 +67,5 @@ python -m ipykernel install --user --name ml --display-name "Python (ml)"
 jupyter notebook
 ```
 
-Remember to set Kernel to "Python(ml) when you open a notebook"
+Remember to set Kernel to "Python(ml)" when you open a notebook.
 
