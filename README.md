@@ -1,16 +1,17 @@
 
-#Setup and installation of environment for osx. Will add information for 
-#linux soon. 
-#More details on setting up anaconda can be found here:
-#http://machinelearningmastery.com/setup-python-environment-machine-learning-deep-learning-anaconda/
+#Example of Image Recognition using tensorflow/tflearn
+
+Setup and installation of environment for osx. Will add information for 
+linux soon. More details on setting up anaconda can be found here:
+<http://machinelearningmastery.com/setup-python-environment-machine-learning-deep-learning-anaconda/>
 
 
-###ANACONDA 4.3.1 ###
-#Download and install conda:
-ANACONDA_NAME=Anaconda3-4.3.1-MacOSX-x86_64.sh
+###ANACONDA 4.3.1 ####
+###Download and install conda:
+```ANACONDA_NAME=Anaconda3-4.3.1-MacOSX-x86_64.sh
 wget https://repo.continuum.io/archive/$ANACONDA_NAME
 bash $ANACONDA_NAME
-
+```
 
 source ~/.bash_profile
 
